@@ -1,0 +1,680 @@
+
+
+Started GET "/" for ::1 at 2016-04-28 10:10:40 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1719ms (Views: 1153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/pokemon.self-3e98674fe2e2825c8b590fccee7120ebb61b766ebe8ee5a79b7d9254f9a22789.css?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/pokemon_api.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2016-04-28 10:10:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2016-04-28 10:10:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2016-04-28 10:10:43 -0400
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-04-28 10:10:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-28 10:10:43 -0400
+
+
+Started GET "/assets/pokemon.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-04-28 10:10:43 -0400
+
+
+Started GET "/assets/pokemon_solid-webfont.woff2" for ::1 at 2016-04-28 10:10:43 -0400
+
+
+Started GET "/" for ::1 at 2016-04-28 11:04:23 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120483ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (134.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:06:24 -0400
+Processing by PokemonController#index as */*
+Completed 500 Internal Server Error in 120066ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (69.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (147.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:08:25 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120586ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (123.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:10:26 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120457ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:25:39 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 21965ms (Views: 609.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/init.self-bcdcf8b1ab52064f2854544c3f572bc71a4fe002131ed23e76a25bfeca927af1.js?body=1" for ::1 at 2016-04-28 11:26:01 -0400
+
+
+Started GET "/assets/pokemon.self-ee0ba88c2f87627c5ebc8f5ab38e545415795ca74480d162596569dea2c13694.js?body=1" for ::1 at 2016-04-28 11:26:01 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-28 11:26:01 -0400
+
+
+Started GET "/assets/pokemon_solid-webfont.woff2" for ::1 at 2016-04-28 11:26:01 -0400
+
+
+Started GET "/" for ::1 at 2016-04-28 11:30:14 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 1142ms (Views: 320.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/pokemon_api.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/pokemon.self-3e98674fe2e2825c8b590fccee7120ebb61b766ebe8ee5a79b7d9254f9a22789.css?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/init.self-bcdcf8b1ab52064f2854544c3f572bc71a4fe002131ed23e76a25bfeca927af1.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/pokemon.self-dc1390fdffa288fde41caf453b3a37ed55f800ea6b2cb55fcca87a15c8dc72dd.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-28 11:30:15 -0400
+
+
+Started GET "/api/pokemon/4" for ::1 at 2016-04-28 11:30:18 -0400
+Processing by PokemonApiController#forward as */*
+  Parameters: {"uri"=>"pokemon/4"}
+Completed 200 OK in 470ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:40:02 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120448ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (122.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.7ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:42:08 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120074ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (128.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:48:57 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 24020ms (Views: 436.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2016-04-28 11:49:21 -0400
+
+
+Started GET "/assets/pokemon.self-1fef0d075c6f5b3870df66c81cfbf916b067b374eed026b2686a77542d3574c3.js?body=1" for ::1 at 2016-04-28 11:49:21 -0400
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/pokemon.self-3e98674fe2e2825c8b590fccee7120ebb61b766ebe8ee5a79b7d9254f9a22789.css?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/pokemon_api.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/init.self-bcdcf8b1ab52064f2854544c3f572bc71a4fe002131ed23e76a25bfeca927af1.js?body=1" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/assets/pokemon_solid-webfont.woff2" for ::1 at 2016-04-28 11:49:22 -0400
+
+
+Started GET "/api/pokemon/4" for ::1 at 2016-04-28 11:49:24 -0400
+Processing by PokemonApiController#forward as */*
+  Parameters: {"uri"=>"pokemon/4"}
+Completed 200 OK in 537ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/5" for ::1 at 2016-04-28 11:49:36 -0400
+Processing by PokemonApiController#forward as */*
+  Parameters: {"uri"=>"pokemon/5"}
+Completed 200 OK in 8597ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/5" for ::1 at 2016-04-28 11:49:44 -0400
+Processing by PokemonApiController#forward as */*
+  Parameters: {"uri"=>"pokemon/5"}
+Completed 200 OK in 30684ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon/25" for ::1 at 2016-04-28 11:50:15 -0400
+Processing by PokemonApiController#forward as */*
+  Parameters: {"uri"=>"pokemon/25"}
+Completed 200 OK in 20164ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 11:58:14 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120550ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (134.9ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:00:54 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120072ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (125.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:02:54 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120528ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.0ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.7ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:04:55 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120067ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.2ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:06:55 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120067ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.0ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:08:56 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120513ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.1ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (116.2ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:10:57 -0400
+Processing by PokemonController#index as HTML
+Completed 500 Internal Server Error in 120105ms (ActiveRecord: 0.0ms)
+
+Net::ReadTimeout (Net::ReadTimeout):
+  app/models/pokemon_api.rb:14:in `request'
+  app/controllers/pokemon_controller.rb:3:in `index'
+
+
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.9ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AlvaroJossue/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.8ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:12:57 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 115473ms (Views: 594.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:14:53 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 3799ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:14:56 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 3874ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:00 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 1648ms (Views: 160.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:02 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1785ms (Views: 157.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:04 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 3186ms (Views: 204.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:07 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1104ms (Views: 209.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:08 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 1074ms (Views: 180.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:09 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 1165ms (Views: 186.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:10 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 3355ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:14 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1058ms (Views: 186.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:15 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 982ms (Views: 171.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:16 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 967ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-28 12:15:17 -0400
+Processing by PokemonController#index as HTML
+  Rendered pokemon/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 581ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pokemon.self-6f8a654addc40190098a5ea15a7ba495c6461c0a95f83d4929df704dfa428a3e.js?body=1" for ::1 at 2016-04-28 12:15:17 -0400
+
+
+Started GET "/api/pokemon/5" for ::1 at 2016-04-28 12:15:36 -0400
+Processing by PokemonApiController#forward as */*
+  Parameters: {"uri"=>"pokemon/5"}
+Completed 200 OK in 477ms (Views: 0.3ms | ActiveRecord: 0.0ms)
